@@ -9,7 +9,7 @@
 #define SSID_PASSWORD ""
 
 #define DHTPIN D2 
-#define DHTTYPE DHT22
+#define DHTTYPE DHT11
 #define SOIL_PIN D5 
 
 ThingerESP8266 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
